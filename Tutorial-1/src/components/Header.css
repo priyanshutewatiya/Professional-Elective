@@ -1,0 +1,13 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #a8b7d5;
+    color: rgb(255, 255, 255);
+}
+header{
+    background-color: #8daded;
+    color: rgb(255, 255, 255);
+    padding: 1rem 2rem;
+}
