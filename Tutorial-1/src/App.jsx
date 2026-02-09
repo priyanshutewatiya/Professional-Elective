@@ -1,22 +1,23 @@
-import './App.css';
-import Header from './components/header.jsx'
-import Registeration from'./components/Registeration.jsx'
-
-const y = [2022,3445]
-
-const obj = {
-  name : "Priyanshu",
-  course : "B.Tech"
-}
-
-function App() {
-  return (
+import {Wrapper} from "./components/Wrapper"
+import {UserCard} from "./components/UserCard"
+export default function App(){
+  const users  = [{
+    name : "Virat Kohli",
+    role : "Batsman",
+    country : "India",
+  },{
+    name : "MS Dhoni",
+    role : "Wicket Keeper",
+    country : "India",
+  }
+];
+  return(
     <div>
-      <Header title="My first App"/>  
-      <Registeration title ={obj}/>
-    <h1>Hello Kiet </h1>
-    <h2>Priyanshu</h2>
+      <h1>User Dashbored</h1>
+      <Wrapper title = "User List">
+      </Wrapper>
+      <UserCard data = {users}>
+      </UserCard>
     </div>
-  )   
+  )
 }
-export default App  

@@ -1,0 +1,14 @@
+.div{
+    display: flex;
+    color: rgb(148, 85, 85);
+    justify-content: space-evenly;
+    background-color: aqua;
+}
+.col{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+/* *{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: cadetblue;
+} */
